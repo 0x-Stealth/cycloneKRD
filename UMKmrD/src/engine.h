@@ -16,7 +16,7 @@ namespace engine {
 		public:
 			LPCSTR name;
 			WORD ordinal;
-			DWORD functionRVA;
+			DWORD functionRVA; // NWORD functionRVA; 
 		};
 
 
